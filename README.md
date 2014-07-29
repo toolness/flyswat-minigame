@@ -4,6 +4,8 @@ uses Fancy Friday's [tinygame.js][] library.
 Code by [Atul Varma][] / [@toolness][].
 Art by [Chloe Varelidi][] / [@varelidi][].
 
+Commodore 64 Pixelized font by Devin Cook.
+
 MIT License.
 
   [Minicade]: http://minica.de/
