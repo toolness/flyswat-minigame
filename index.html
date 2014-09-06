@@ -8,48 +8,8 @@ html {
 }
 
 @keyframes flying {
-  /* Each sprite frame is 80px wide, so we just increment
-   * background-position by that amount each frame.
-   */
-
-  10% {
-    background-position: 0px 0px;
-  }
-
-  20% {
-    background-position: -80px 0px;
-  }
-
-  30% {
-    background-position: -160px 0px;    
-  }
-
-  40% {
-    background-position: -240px 0px;
-  }
-
-  50% {
-    background-position: -320px 0px;
-  }
-
-  60% {
-    background-position: -400px 0px;
-  }
-
-  70% {
-    background-position: -480px 0px;
-  }
-
-  80% {
-    background-position: -560px 0px;
-  }
-
-  90% {
-    background-position: -640px 0px;
-  }
-
   100% {
-    background-position: -720px 0px;
+    background-position: -800px 0px;
   }
 }
 
@@ -79,7 +39,8 @@ html {
 .fly.flying {
   animation-duration: 1s;
   animation-name: flying;
-  animation-timing-function: step-start;
+  /* There are 10 frames we have to go through */
+  animation-timing-function: steps(10);
   animation-iteration-count: infinite;
 }
 
